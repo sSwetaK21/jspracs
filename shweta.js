@@ -103,13 +103,32 @@
 
 // using while loop print all even numbers
 
+// let number= parseInt(process.argv[2]);
+// let i=1;
+// while(i<=number){
+//     if(i%2==0){
+//         console.log(i + " Even");
+//     } else{
+//         console.log("not an even number");
+//     }
+//     i++;
+// }
+
+// find factorial of a number
+
+// let number= parseInt(process.argv[2]);
+// let factorial=1;
+// for (let i=1;i<=number;i++){
+//     factorial=factorial*i;
+// }
+// console.log(factorial);
+
+
 let number= parseInt(process.argv[2]);
+let factorial=1;
 let i=1;
 while(i<=number){
-    if(i%2==0){
-        console.log(i + " Even");
-    } else{
-        console.log("not an even number");
-    }
+    factorial=factorial*i;
     i++;
 }
+console.log(factorial);
