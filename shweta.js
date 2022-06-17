@@ -187,21 +187,37 @@
 //     }
 // }
 
-let number= parseInt(process.argv[2]);
-let i=number;
-while(i<=10){
-    if(i%3==0){
-        console.log("hello");
-    } else if(i%5==0){
-        console.log("world");
-    } else if(i%15==0){
-        console.log("hello world");
-    } else{
-        console.log(i);
-    }
-    i++;
-}
+// let number= parseInt(process.argv[2]);
+// let i=number;
+// while(i<=10){
+//     if(i%3==0){
+//         console.log("hello");
+//     } else if(i%5==0){
+//         console.log("world");
+//     } else if(i%15==0){
+//         console.log("hello world");
+//     } else{
+//         console.log(i);
+//     }
+//     i++;
+// }
 
+
+// print palindrome of a number
+
+let number= parseInt(process.argv[2]);
+let reverse=0;
+let temp=number;
+while(number>0){
+    let digit= Math.floor(number%10);
+    reverse=reverse*10+digit;
+    number= Math.floor(number/10);
+}
+if(temp==reverse){
+    console.log("palindrome");
+} else{
+    console.log("not a palindrome");
+}
 
 
 
