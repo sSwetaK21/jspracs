@@ -124,11 +124,28 @@
 // console.log(factorial);
 
 
+// let number= parseInt(process.argv[2]);
+// let factorial=1;
+// let i=1;
+// while(i<=number){
+//     factorial=factorial*i;
+//     i++;
+// }
+// console.log(factorial);
+
+// print all digits of a number
+
+// let number= parseInt(process.argv[2]);
+// let i=0;
+// while(number>0){
+//     let digit= Math.floor(number%10);
+//     console.log(digit);
+//     number= Math.floor(number/10);
+// }
+
 let number= parseInt(process.argv[2]);
-let factorial=1;
-let i=1;
-while(i<=number){
-    factorial=factorial*i;
-    i++;
+for(let i=0;i<=number;i++){
+    let digit= Math.floor(number%10);
+    console.log(digit);
+    number= Math.floor(number/10);
 }
-console.log(factorial);
