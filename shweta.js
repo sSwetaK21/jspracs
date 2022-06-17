@@ -161,13 +161,47 @@
 //     number2=number1;
 // }
 
+// let number= parseInt(process.argv[2]);
+// let number2= parseInt(process.argv[3]);
+// let i=number;
+// let j=number2;
+// while(i<=10){
+//     console.log(i);
+//     let number1=i + j;
+//     i=j;
+//     j=number1;
+// }
+
+// for number from 1 to 100 if number is divisible by 3 then print hello else if number is divisible by 5 then print world else print number
+
+// let number= parseInt(process.argv[2]);
+// for(let i=number;i<=number;i++){
+//     if(i%3==0){
+//         console.log("hello");
+//     } else if(i%5==0){
+//         console.log("world");
+//     } else if(i%15==0){
+//         console.log("hello world");
+//     } else{
+//         console.log(i);
+//     }
+// }
+
 let number= parseInt(process.argv[2]);
-let number2= parseInt(process.argv[3]);
 let i=number;
-let j=number2;
 while(i<=10){
-    console.log(i);
-    let number1=i + j;
-    i=j;
-    j=number1;
+    if(i%3==0){
+        console.log("hello");
+    } else if(i%5==0){
+        console.log("world");
+    } else if(i%15==0){
+        console.log("hello world");
+    } else{
+        console.log(i);
+    }
+    i++;
 }
+
+
+
+
