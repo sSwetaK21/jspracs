@@ -54,7 +54,17 @@
 
 // using looop print all natural numbers
 
+// let number=  parseInt(process.argv[2]);
+// for(let i=1;i<=number;i++){
+//     console.log(i);
+// }
+
+
+// using looop print all even numbers
+
 let number=  parseInt(process.argv[2]);
-for(let i=1;i<=number;i++){
-    console.log(i);
+if(number%2==0){
+    console.log(number + " Even");
+} else{
+    console.log("not an even number");
 }
