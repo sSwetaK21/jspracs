@@ -50,7 +50,9 @@
 // let side = 3;
 // let area = side*side*side;
 // console.log(area);
+  
 
+// Sir practicals here :
 
 // using looop print all natural numbers
 
@@ -71,8 +73,43 @@
 
 // print all numbers in reverse order
 
-let number1=  parseInt(process.argv[2]);
-let number2=  parseInt(process.argv[3]);
-for(let i=number2;i>=number1;i--){
-    console.log(i);
+// let number1=  parseInt(process.argv[2]);
+// let number2=  parseInt(process.argv[3]);
+// for(let i=number2;i>=number1;i--){
+//     console.log(i);
+// }
+
+
+// using while loop print all numbers in reverse order
+
+// let number1=  parseInt(process.argv[2]);
+// let number2=  parseInt(process.argv[3]);
+// let i=number2;
+// while(i>=number1){
+//     console.log(i);
+//     i--;
+// }
+
+
+
+// using while loop print all natural numbers
+
+// let number= parseInt(process.argv[2]);
+// let i=1;
+// while(i<=number){
+//     console.log(i);
+//     i++;
+// }
+
+// using while loop print all even numbers
+
+let number= parseInt(process.argv[2]);
+let i=1;
+while(i<=number){
+    if(i%2==0){
+        console.log(i + " Even");
+    } else{
+        console.log("not an even number");
+    }
+    i++;
 }
