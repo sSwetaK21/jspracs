@@ -205,19 +205,34 @@
 
 // print palindrome of a number
 
-let number= parseInt(process.argv[2]);
-let reverse=0;
-let temp=number;
-while(number>0){
-    let digit= Math.floor(number%10);
-    reverse=reverse*10+digit;
-    number= Math.floor(number/10);
-}
-if(temp==reverse){
-    console.log("palindrome");
-} else{
-    console.log("not a palindrome");
-}
+// let number= parseInt(process.argv[2]);
+// let reverse=0;
+// let temp=number;
+// while(number>0){
+//     let digit= Math.floor(number%10);
+//     reverse=reverse*10+digit;
+//     number= Math.floor(number/10);
+// }
+// if(temp==reverse){
+//     console.log("palindrome");
+// } else{
+//     console.log("not a palindrome");
+// }
 
+
+// print perfect Number
+
+let number= parseInt(process.argv[2]);
+let perfect=0;
+for(let i=1;i<number;i++){
+    if(number%i==0){
+        perfect=perfect+i;
+    }
+}
+if(perfect==number){
+    console.log("perfect number");
+}   else{
+    console.log("not a perfect number");
+}
 
 
