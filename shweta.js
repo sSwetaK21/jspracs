@@ -143,9 +143,31 @@
 //     number= Math.floor(number/10);
 // }
 
+// let number= parseInt(process.argv[2]);
+// for(let i=0;i<=number;i++){
+//     let digit= Math.floor(number%10);
+//     console.log(digit);
+//     number= Math.floor(number/10);
+// }
+
+// print fibonacci series
+
+// let number= parseInt(process.argv[2]);
+// let number2= parseInt(process.argv[3]);
+// for (let i=number;i<=10;i++){
+//     console.log(number);
+//     let number1=number + number2;
+//     number=number2;
+//     number2=number1;
+// }
+
 let number= parseInt(process.argv[2]);
-for(let i=0;i<=number;i++){
-    let digit= Math.floor(number%10);
-    console.log(digit);
-    number= Math.floor(number/10);
+let number2= parseInt(process.argv[3]);
+let i=number;
+let j=number2;
+while(i<=10){
+    console.log(i);
+    let number1=i + j;
+    i=j;
+    j=number1;
 }
