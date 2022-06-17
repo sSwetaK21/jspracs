@@ -62,9 +62,17 @@
 
 // using looop print all even numbers
 
-let number=  parseInt(process.argv[2]);
-if(number%2==0){
-    console.log(number + " Even");
-} else{
-    console.log("not an even number");
+// let number=  parseInt(process.argv[2]);
+// if(number%2==0){
+//     console.log(number + " Even");
+// } else{
+//     console.log("not an even number");
+// }
+
+// print all numbers in reverse order
+
+let number1=  parseInt(process.argv[2]);
+let number2=  parseInt(process.argv[3]);
+for(let i=number2;i>=number1;i--){
+    console.log(i);
 }
