@@ -236,17 +236,19 @@
 // }
 
 
-let number= parseInt(process.argv[2]);
-let perfect=0;
-let i=1;
-while(i<number){
-    if(number%i==0){
-        perfect=perfect+i;
-    }
-    i++;
-}
-if(perfect==number){
-    console.log("perfect number");
-}  else{
-    console.log("not a perfect number");
-}
+// let number= parseInt(process.argv[2]);
+// let perfect=0;
+// let i=1;
+// while(i<number){
+//     if(number%i==0){
+//         perfect=perfect+i;
+//     }
+//     i++;
+// }
+// if(perfect==number){
+//     console.log("perfect number");
+// }  else{
+//     console.log("not a perfect number");
+// }
+
+console.log(8>>6);
