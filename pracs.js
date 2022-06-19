@@ -159,3 +159,53 @@
 //     let days = parseInt(process.argv[4]);
 //     let number = (years*365)+(months*30)+days;
 //     console.log(number);
+
+                        // -----qst 14 -----        
+// Take input a as a number and b as percentage. Write a program to calculate the percentage of a number.
+
+// let number = parseInt(process.argv[2]);
+// let percentage = parseInt(process.argv[3]);
+// let ans = number*(percentage/100);
+// console.log(ans);
+
+                        // -----qst 15 -----
+
+// Write a code to take time in seconds and convert it into hour, mins and seconds
+
+//  let time = parseInt(process.argv[2]);
+//     let hours = Math.floor(time/3600);
+//     let minutes = Math.floor((time%3600)/60);
+//     let seconds = Math.floor((time%3600)%60);
+//     console.log(hours+" hours "+minutes+" minutes "+seconds+" seconds");
+
+                        // -----qst 16 -----    
+// Take hours, mins and seconds and convert it to seconds.
+
+    // let hours = parseInt(process.argv[2]);
+    // let minutes = parseInt(process.argv[3]);
+    // let seconds = parseInt(process.argv[4]);
+    // let time = (hours*3600)+(minutes*60)+seconds;
+    // console.log(time);
+
+                        // -----qst 17 -----    
+// Take an integer and print "YES" if the integer is prime and "NO" if it is not.
+
+// let number = parseInt(process.argv[2]);
+// let flag = 0;
+// for(let i=2;i<number;i++){
+//     if(number%i==0){
+//         flag = 1;
+//     }
+// }
+// if(flag==0){
+//     console.log("YES");
+// } else{
+//     console.log("NO");
+// }
+
+                        // -----qst 18 -----    
+// take a number and print perfect square of the number.
+
+     let number = parseInt(process.argv[2]);
+        let sqr = Math.sqrt(number);
+        console.log(sqr);
