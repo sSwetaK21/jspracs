@@ -206,6 +206,11 @@
                         // -----qst 18 -----    
 // take a number and print perfect square of the number.
 
-     let number = parseInt(process.argv[2]);
-        let sqr = Math.sqrt(number);
-        console.log(sqr);
+    //  let number = parseInt(process.argv[2]);
+    //     let sqr = Math.sqrt(number);
+    //     console.log(sqr);
+
+
+
+
+
