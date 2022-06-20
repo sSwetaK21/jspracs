@@ -1,19 +1,19 @@
 //arithmetic operations
 
 // let a =5;
-// a++;
+// a++;  //post increment
 // console.log(a);
 
 // let b =5;
-// ++b;
+// ++b;   //pre increment
 // console.log(b);
 
 // let a =5;
-// a--;
+// a--;     //post decrement
 // console.log(a);
 
 // let b = 5;
-// --b;
+// --b;         //pre decrement
 // console.log(b);
 
 
@@ -58,19 +58,19 @@
 
 //switch case
 
- let number= parseInt(process.argv[2]);
-    switch(number){
-        case 1:
-            console.log("one");
-            break;
-        case 2:
-            console.log("two");
-            break;
-        case 3:
-            console.log("three");
-            break;
-        default:
-            console.log("not a number");
-            break;
-    }
+//  let number= parseInt(process.argv[2]);
+//     switch(number){
+//         case 1:
+//             console.log("one");
+//             break;
+//         case 2:
+//             console.log("two");
+//             break;
+//         case 3:
+//             console.log("three");
+//             break;
+//         default:
+//             console.log("not a number");
+//             break;
+//     }
 
