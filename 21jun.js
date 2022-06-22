@@ -43,3 +43,34 @@
 //   } else {
 //     console.log( 'Access denied' );
 //   }
+
+
+
+// function x(para) {
+//   // para();
+// }
+
+// function y() {
+//   console.log("Hello");
+// }
+
+// x(y);
+
+
+
+// recursion fact
+
+// function y(num,fact){
+//   if(num>0){
+//     fact *= num;
+//     return y(num-1 ,fact);
+//   }
+//   return fact;
+// }
+
+// console.log(y(5,1))
+
+
+// // Q.2 Find the 12 digit of fibonacchi series using recursion.
+
+// function x(num)
