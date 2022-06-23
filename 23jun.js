@@ -49,12 +49,56 @@
 
 // Given a number n, print numbers from n to 1 using recursion
 
-function range(num, num2){
-    if(num>=num2){
-        console.log(num);
-        return range(num-1, num2 );
-    }
+// function range(num, num2){
+//     if(num>=num2){
+//         console.log(num);
+//         return range(num-1, num2 );
+//     }
         
-    }
-    console.log( range(6 , 1) );
+//     }
+//     console.log( range(6 , 1) );
 
+// Given an array of integers, print the elements using recursion
+
+// let arr = [1,2,3,4];
+
+// function array(arr){
+//     if(arr==0){
+//         console.log(arr);
+//         return array(arr);
+//     }
+    
+// }
+
+// console.log(array(arr));
+
+// Write a Javascript program to count the number of digits a given number has using recursion.
+
+// function numDig(num1,count ){
+//     if(num1>0){
+//         num1 = Math.floor(num1/10);
+//         count++;
+//         return numDig(num1 ,count);
+//     }
+//     console.log(count);
+// }
+// console.log(numDig(234,0));
+
+
+// Convert a given decimal number to binary using recursion.
+
+function decToBin(num){
+    // do{
+    //     console.log(num .toString(2));
+    //     return decToBin(num);
+    // }
+    // while( num );
+    if(num == 0){
+        return decToBin(num);
+    } else {
+        console.log(num .toString(2));
+
+    }
+}
+
+console.log(decToBin(10));
