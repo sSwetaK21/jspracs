@@ -74,13 +74,13 @@
 //             break;
 //     }
 
-let userPincode = 1234;
-let originPincode = 2345;
-for(i=1; i<=3; i++){
-    if(userPincode == originPincode){
-        console.log("Pincode MAtched");
-    } else{
-        console.log("Error");
-    }
-}
+// let userPincode = 1234;
+// let originPincode = 2345;
+// for(i=1; i<=3; i++){
+//     if(userPincode == originPincode){
+//         console.log("Pincode MAtched");
+//     } else{
+//         console.log("Error");
+//     }
+// }
 

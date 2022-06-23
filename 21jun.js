@@ -3,10 +3,21 @@
 
 
 // let add = (a,b) =>{
+//   console.log(this);
 //     return a+b;
 // }
 
 // console.log(add(5,6));
+
+
+function add(a,b){
+  console.log(this);
+      return a+b;
+}
+
+console.log((10).toString(16));
+
+
 
 // let sumOfSquare = (num) => {
 //     let sum = 0;
@@ -71,6 +82,14 @@
 // console.log(y(5,1))
 
 
-// // Q.2 Find the 12 digit of fibonacchi series using recursion.
 
-// function x(num)
+
+// function add(a, b){
+//   return a+b;
+// }
+
+// function print(n1, n2){
+//  return add(n1, n2);
+// }
+
+// print(2,3);
