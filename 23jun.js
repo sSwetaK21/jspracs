@@ -87,18 +87,35 @@
 
 // Convert a given decimal number to binary using recursion.
 
-function decToBin(num){
-    // do{
-    //     console.log(num .toString(2));
-    //     return decToBin(num);
-    // }
-    // while( num );
-    if(num == 0){
-        return decToBin(num);
-    } else {
-        console.log(num .toString(2));
+// function decToBin(num){
+//     // do{
+//     //     console.log(num .toString(2));
+//     //     return decToBin(num);
+//     // }
+//     // while( num );
+//     if(num == 0){
+//         num =0;
+//     } else {
+//         console.log(num .toString(2));
+//         return decToBin(num);
 
+//     }
+// }
+
+// console.log(decToBin(10));
+
+// Given a number n, print all the odd numbers from 1 to n using recursion.
+
+function odd(num, num2){
+    for(  i = num; i <= num2 ; i++){
+        
+        if(num %2 !== 0){
+            console.log( i + " ODD");
+            return odd(num, num2-1);
+        }
     }
+    
 }
 
-console.log(decToBin(10));
+console.log(odd(1,7));
+
