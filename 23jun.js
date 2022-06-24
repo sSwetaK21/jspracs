@@ -54,7 +54,7 @@
 //         console.log(num);
 //         return range(num-1, num2 );
 //     }
-        
+
 //     }
 //     console.log( range(6 , 1) );
 
@@ -67,7 +67,7 @@
 //         console.log(arr);
 //         return array(arr);
 //     }
-    
+
 // }
 
 // console.log(array(arr));
@@ -87,19 +87,19 @@
 
 // Convert a given decimal number to binary using recursion.
 
-let count =1;
+// let count =1;
 
-function decToBin(num){
-  
-   if(count==1){
-       console.log(num .toString(2));
-       count+=1;
-       return decToBin(num);
-    }
-    
-}
+// function decToBin(num){
 
-decToBin(10);
+//    if(count==1){
+//        console.log(num .toString(2));
+//        count+=1;
+//        return decToBin(num);
+//     }
+
+// }
+
+// decToBin(10);
 
 // Given a number n, print all the odd numbers from 1 to n using recursion.
 
@@ -111,8 +111,20 @@ decToBin(10);
 //         }
 //     }
 //     return odd(num+1 , num2);
-    
+
 // }
 
 // console.log(odd(1,7));
 
+
+
+function odd(num, num2){
+    if(num<=num2){
+        if(num%2== 0){
+            console.log(num);
+            return odd(num+1, num2);
+        }
+    }
+}
+
+console.log(odd(1,6));
