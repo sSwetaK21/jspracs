@@ -100,15 +100,19 @@
                         // -----qst 9 ----- 
 // Take a number and print out the reverse digit of the number.
 
-// let number = parseInt(process.argv[2]);
-// let reverse = 0;
-// let temp = number;
-// while(temp > 0){
-//     let digit = Math.floor(temp % 10);
-//     reverse = reverse*10 + digit;
-//     temp = Math.floor(temp / 10);
-// }
-// console.log(reverse);
+let number = parseInt(process.argv[2]);
+let reverse = 0;
+let count =0;
+let temp = number;
+while(temp > 0){
+    let digit = Math.floor(temp % 10);
+    reverse = reverse*10 + digit;
+    temp = Math.floor(temp / 10);
+    count++
+}
+console.log(reverse);
+
+
 
 
                         // -----qst 10 -----
