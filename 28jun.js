@@ -65,27 +65,29 @@
 
 // ------Hollow Pattern-----------------
 
-// let n = 5; 
-// let string = "";
+let n = 5; 
+let string = "";
 
-// for(let i = 0; i < n; i++) { 
-//   for(let j = 0; j < n; j++) { 
-//     if(i === 0 || i === n - 1) {
-//       string += "*";
-//     }
-//     else {
-//       if(j === 0 || j === n - 1) {
-//         string += "*";
-//       }
-//       else {
-//         string += " ";
-//       }
-//     }
-//   }
-//   // newline after each row
-//   string += "\n";
-// }
-// console.log(string);
+for(let i = 0; i < n; i++) { 
+  for(let j = 0; j < n; j++) { 
+    if(i === 0 || i === n - 1 || j == 0 || j== n-1) {
+      string += "*";
+    } else{
+      string += " ";
+    }
+    // else {
+    //   if(j === 0 || j === n - 1) {
+    //     string += "*";
+    //   }
+    //   else {
+    //     string += " ";
+    //   }
+    // }
+  }
+  // newline after each row
+  string += "\n";
+}
+console.log(string);
 
 // o/p:
 // *****
@@ -103,9 +105,9 @@ for(i=1; i<=5; i++){
     }
     console.log(star);
   }
-o/p
-  1
-12
-123
-1234
-12345
+// o/p
+// 1
+// 12
+// 123
+// 1234
+// 12345

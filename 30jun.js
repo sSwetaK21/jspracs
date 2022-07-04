@@ -31,7 +31,7 @@
 // let star ="";
 // for(i =1; i<=n; i++){
 //     for(j =1; j<=n ; j++){
-//         if(i+j == 6){
+//         if(i+j == n+1){
 //             star += "*";
 //         } else {
 //             star += " ";
@@ -65,22 +65,23 @@
 // *               *
 
 
-// let n =5;
-// let string ="";
-// for(i =1; i<=n ; i++){
-//     for(j=1; j<=n; j++){
-//         if(i==j){
-//             string += "*";
-//         }
-//         else if(i+j == 6){
-//             string += "*";
-//         } else{
-//             string += " ";
-//         }
-//     }
-//     string += "\n";
-// }
-// console.log(string);
+let n =5;
+let string ="";
+for(i =1; i<=n ; i++){
+    for(j=1; j<=n; j++){
+        if(i==j || i+j == 6){
+            string += "*";
+        }
+        // else if(){
+        //     string += "*";
+        // } 
+        else{
+            string += " ";
+        }
+    }
+    string += "\n";
+}
+console.log(string);
 
 // hollow diamond pattern
 

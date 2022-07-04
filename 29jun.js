@@ -42,7 +42,7 @@
 // let n = 5;
 // let string = "";
 
-// for (let i = 2; i <= n; i++) {
+// for (let i = 1; i <= n; i++) {
 //     // printing spaces
 //     for (let j = n; j > i; j--) {
 //       string += " ";
@@ -54,6 +54,15 @@
 //     string += "\n";
 //   }
 //   console.log(string);
+
+
+// o/p:
+//                 *    
+//                ***   
+//               *****  
+//              ******* 
+//             *********
+
 
 
 // let n = 5;
