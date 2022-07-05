@@ -36,3 +36,18 @@ console.log(isIsland, country, population);
 
 language= "Hindi";
 console.log(language);
+
+
+// Type Conversion and Coercion
+
+// 1. Predict the result of these 5 operations without executing them:
+
+let n = '9' - '5';
+console.log(n);
+let m ='19' - '13' + '17';
+let a= '19' - '13' + 17;
+let b= '123' < 57;
+let c= 5 + 6 + '4' + 9 - 4 - 2;
+console.log(m,a,b,c);
+
+// 2. Execute the operations to check if you were right
