@@ -44,12 +44,12 @@ console.log(language , country, continent);
 
 // 1. Predict the result of these 5 operations without executing them:
 
-let n = '9' - '5';
+let n = '9' - '5';     // -> 4
 console.log(n);
-let m ='19' - '13' + '17';
-let a= '19' - '13' + 17;
-let b= '123' < 57;
-let c= 5 + 6 + '4' + 9 - 4 - 2;
+let m ='19' - '13' + '17';    // ->  6 17
+let a= '19' - '13' + 17;         // ->   6 +17 = 23
+let b= '123' < 57;             // ->  false
+let c= 5 + 6 + '4' + 9 - 4 - 2;        // ->    11 4 3
 console.log(m,a,b,c);
 
 // 2. Execute the operations to check if you were right
