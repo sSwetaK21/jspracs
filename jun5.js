@@ -5,9 +5,9 @@
 // assign their values according to your own country (population in millions)
 // 2. Log their values to the console
 
-let country = 'India';
-let continent = 'Asia';
-let population = 3.5;
+// let country = 'India';
+// let continent = 'Asia';
+// let population = 3.5;
 
 // console.log(country, continent, population);
 
@@ -23,7 +23,7 @@ let population = 3.5;
 
 let isIsland = true;
 let language;
-console.log(isIsland, country, population);
+// console.log(isIsland, country, population);
 
 
 // let, const and var
@@ -35,7 +35,9 @@ console.log(isIsland, country, population);
 // 3. Try to change one of the changed variables now, and observe what happens
 
 language= "Hindi";
-console.log(language);
+const country = "India";
+const continent = "Asia";
+console.log(language , country, continent);
 
 
 // Type Conversion and Coercion
