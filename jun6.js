@@ -23,6 +23,13 @@
 
 //unshift
 
-let m = [1,2,3,4,5,6];
-m.unshift(0);
-console.log(m.unshift());
+let m = [1,2,3,4];
+m.unshift(0);      //=>  first add
+console.log(m);   //=> [ 0, 1, 2, 3, 4 ]
+
+
+//shift
+
+let s = [1,2,3,4];
+s.shift();        //=>  first remove
+console.log(s);   //=>   [ 2, 3, 4 ]
