@@ -54,10 +54,4 @@ console.log(m,a,b,c);
 
 // 2. Execute the operations to check if you were right
 
-let array =['car' ,'truck', 'bike', 'motor']
-console.log(array[3]);
-let a1=[1,4];
-let b2=[3,5];
-let c1=a1+b2;
-console.log(c1);
-console.log(a1);
+
