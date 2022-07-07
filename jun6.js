@@ -23,13 +23,21 @@
 
 //unshift
 
-let m = [1,2,3,4];
-m.unshift(0);      //=>  first add
-console.log(m);   //=> [ 0, 1, 2, 3, 4 ]
+// let m = [1,2,3,4];
+// m.unshift(0);      //=>  first add
+// console.log(m);   //=> [ 0, 1, 2, 3, 4 ]
 
 
 //shift
 
-let s = [1,2,3,4];
-s.shift();        //=>  first remove
-console.log(s);   //=>   [ 2, 3, 4 ]
+// let s = [1,2,3,4];
+// s.shift();        //=>  first remove
+// console.log(s);   //=>   [ 2, 3, 4 ]
+
+// function createArray(){
+//     let arr = ["Bike", "Scooter", "Car", "Truck", "JCB", "Helicopter"];
+//     return arr;
+//   }
+//   console.log(createArray(arr(3)));
+
+
