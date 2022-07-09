@@ -156,4 +156,4 @@
 
 let arr = [1,2,3,45,6];
 arr.push("hi");
-console.log(arr);
+console.log(arr.join("*"));
