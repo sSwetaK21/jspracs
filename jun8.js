@@ -40,14 +40,40 @@
 
 // Given an array of strings, sort the array and then return concatinating the 2nd and 2nd last element of the array.
 
-function arraySum(arr) {
-    arr.sort();
-  //  arr=  ;
-  return arr.toString(arr[1] + arr[arr.length - 2]);
-    // arr;
-}
-console.log(arraySum([1,2,3,4,5]))
+// function arraySum(arr) {
+//     arr.sort();
+//   //  arr=  ;
+//   return arr.toString(arr[1] + arr[arr.length - 2]);
+//     // arr;
+// }
+// console.log(arraySum([1,2,3,4,5]))
 
 // 1,2,3,4,5
 
 // 24
+
+function arraysum(arr1,arr2) {
+  let arr3 = [];
+  let arr4 = [];
+  for (let i = 0; i < arr1.length; i++) {
+    if (arr1[i]  % 2 !== 0) {
+       arr3 = arr1[i];
+    }
+  }
+  for (let i = 0; i < arr2.length; i++) {
+    if (arr2[i]  % 2 !== 0) {
+       arr4 = arr2[i];
+    }
+  }
+//  let arr5=[]
+//  arr5 = ;
+ console.log(arr3.concat(arr4))
+
+  
+}
+console.log(arraysum([1, 2, 3, 4,5,6,7,8], [2,3,4,5]))
+
+// let arr1 = [1, 2, [3, 4]];
+// let arr2 = [[5, 6], 7, 8];
+// let arr3 = arr1.concat(arr2);
+// console.log(arr3)
