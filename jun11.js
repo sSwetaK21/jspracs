@@ -39,10 +39,33 @@
 
 //----------missing number-------------
 
-function missingNum(n){
-    let total = Math.floor((n + 1) * (n + 2) / 2);
-        for (let i = 0; i < n; i++)
-            total -= a[i];
-        return total;
+// function missingNum(n){
+//     let total = Math.floor((n + 1) * (n + 2) / 2);
+//         for (let i = 0; i < n; i++){
+
+//             total -= a[i];
+//         }
+//         return total;
+// }
+// console.log(missingNum([1,2,3,6,7,8,,4]))
+
+
+// function missingNumber(arr){
+//     // let missing =[];
+//     for(let i=0; i<arr.length; i++){
+//         if(arr.includes(i) == -1){
+//            arr.push(i);
+//            console.log(i)
+//         }
+//     }
+//     return arr;
+// }
+// console.log(missingNumber([0,1,2,4,5,6]))
+
+//--------map--------
+
+function manager(arr){
+    return arr.map(value => value +1000);
+    
 }
-console.log(missingNum([1,2,3,6,7,8,,4]))
+console.log(manager([1000,2000,3000]))
