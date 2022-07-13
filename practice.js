@@ -47,17 +47,17 @@
 
 //========
 
-let menu = ['Panner Butter Masala', 'Panner Fried Rice', 'Chicken Biryani', 'Cold Coffee'];
-for (let i = 0; i < menu.length; i++) {
-    if (menu.filter(word => word.includes('Panner'))) {
-        if (menu.filter(word => word.includes('Rice'))) {
-            console.log('Rice')
-        } else{
-            console.log(menu.filter(word => word.includes('Panner') ))
-        }
+// let menu = ['Panner Butter Masala', 'Panner Fried Rice', 'Chicken Biryani', 'Cold Coffee'];
+// for (let i = 0; i < menu.length; i++) {
+//     if (menu.filter(word => word.includes('Panner'))) {
+//         if (menu.filter(word => word.includes('Rice'))) {
+//             console.log('Rice')
+//         } else{
+//             console.log(menu.filter(word => word.includes('Panner') ))
+//         }
 
-    } 
-}
+//     } 
+// }
 
 // words.filter(word => word.length > 6);
 
@@ -74,15 +74,37 @@ arr1 = arr.map(value => value * Math.sqrt(value));
 console.log(arr1);
 
 
-function lostPlanet(planets){
-    let missing =[],j=0;
-    for(let i=0; i<=planets.length; i++){
-          if(planets.includes(i) == false){
-            // return i;
-            missing[j] = i;
-            j++;
-          }
-      }  
-          return missing;
-  }
-  console.log(lostPlanet([0,1,4,3,5,6,8]))
+// function lostPlanet(planets){
+//     let missing =[],j=0;
+//     for(let i=0; i<=planets.length; i++){
+//           if(planets.includes(i) == false){
+//             // return i;
+//             missing[j] = i;
+//             j++;
+//           }
+//       }  
+//           return missing;
+//   }
+//   console.log(lostPlanet([0,1,4,3,5,6,8]))
+
+// function sortSum(arr){
+//     arr.sort(function(a,b){
+//       return a-b
+//     });
+  
+//     arr= arr[1] + arr[arr.length-2];
+//     return arr;
+//  }
+//  console.log(sortSum(['2', '5', '10', '7', '5']))
+
+// function multiply(arr){
+//     let arr1= [];
+//     arr1 = arr.map(value => value * Math.sqrt(value));
+//     return arr1;
+//   }
+//   console.log(multiply([4,9,25,49]))
+
+function multiply(arr) {
+    return arr.map(value => value * Math.sqrt(value));
+}
+console.log(multiply([4,9,25,49]))
