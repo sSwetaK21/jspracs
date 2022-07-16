@@ -77,3 +77,38 @@
 // console.log(arrayVolwel('aircampus'))
 
 // Given a string, change all the characters to uppercase and return the new string.
+
+
+
+
+
+
+// // Given a string, return the string after changing the uppercase characters to lowercase and lowercase characters to uppercase.
+// function array(string){
+//     string.split('');
+//     for(let i = 0; i < string.length; i++){
+//         if(string[i] === string[i].toUpperCase()){
+//             string[i].toLowerCase();
+//         } 
+//     }
+//     console.log(string.toUpperCase())
+//     // string.join(' ');
+//     return string;
+// }
+// console.log(array('AirCampus'));
+
+// Given a string, find out how many times ‘e’ is present in the string. Return the count of ‘e.’
+// function counting(string) {
+//     let count =0;
+//     for(let i=0; i<string.length; i++) {
+//         if( string.charAt(i) == 'e' ){
+//             count +=1;
+//         }
+//     }
+//     return count;
+// }
+// console.log(counting('aircampus'));
+
+
+// Given a string, return the last 4 characters of the given string.
+
