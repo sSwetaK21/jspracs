@@ -60,3 +60,20 @@
 //         }
 //     }
 // }
+
+// function changeArray(arr, moves){
+//     for(let i=0; i<moves.length ; i++){
+//       if(arr.includes(moves[i][0])){
+//           let value = arr.indexOf(moves[i][0]);
+//           arr[value] = moves[i][1]
+//         //   console.log(value)
+//       }
+//     }
+//     return arr;
+//   }
+//   console.log(changeArray([1, 5,    7, 8],
+//                           [[1, 3], [7, 9]]));
+
+let word =  'hey shwey, how are you?' ;
+word.splice(2,0,'what');
+console.log(word)

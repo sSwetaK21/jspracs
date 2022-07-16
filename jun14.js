@@ -36,13 +36,32 @@
 // }
 // amitTwoo(['Paneer Butter Masala', 'Paneer Fried Rice', 'Chicken Biryani', 'Cold Coffee'])
 
-function amitHelp(menu){
-    for(let i=0; i<menu.length;i++){
-        if(menu[i] == 'Paneer Butter Masala'){
-           return menu[i]  ;
-        }
-    }
-    return false;
-}
+// function amitHelp(menu){
+//     for(let i=0; i<menu.length;i++){
+//         if(menu[i] == 'Paneer'){
+//            return menu[i]  ;
+//         }
+//     }
+//     return false;
+// }
 
-console.log(amitHelp(['Paneer Butter Masala', 'Paneer Fried Rice', 'Chicken Biryani', 'Cold Coffee']))
+// console.log(amitHelp(['Paneer Butter Masala', 'Paneer Fried Rice', 'Chicken Biryani', 'Cold Coffee']))
+
+function findSmallest(arr)
+    {
+        // traverse for all elements
+        for (let i = 0; i < arr.length; i++)
+        {
+            for (let j = 0; j < arr.length; j++)
+                if (arr[j] % arr[i]>=1)
+                    break;
+       
+            // stores the minimum if
+            // it divides all
+            if (j == arr.length)
+                return arr[i];
+        }
+       
+        return -1;
+    }
+    console.log(findSmallest([1, 5, 7, 8]))
