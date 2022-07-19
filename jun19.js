@@ -46,7 +46,38 @@
 //////////=============find()=======
 // The find() method returns the first element in the provided array that satisfies the provided testing function. If no values satisfy the testing function, undefined is returned
 
-let arr=[5,2,33,44,786,10]
-let found= arr.find(value => value>=10);
-console.log(found)
+// let arr=[5,2,33,44,786,10]
+// let found= arr.find(value => value>=10);
+// console.log(found)
 
+//====findIndex()======
+// The findIndex() method returns the index of the first element in an array that satisfies the provided testing function. If no elements satisfy the testing function, -1 is returned
+
+// let arr=[1,24,33,46,5,75,10,33,];
+// let res= arr.findIndex(element => element>10)
+// console.log(res)  o/p: index number: 1
+
+
+//==========map()===============
+// The map() method creates a new array populated with the results of calling a provided function on every element in the calling array
+
+// let arr =[1,2,3,4];
+// let map1 = arr.map(value => value **2)
+// console.log(map1);
+// o/p:[ 1, 4, 9, 16 ]
+
+//==replace()=======
+
+// let str='hi this is shweta';
+// console.log(str.replace('hi', 'hello'))
+// o/p: hello this is shweta
+
+let str = 'The Man is not well. But the man is working'
+// console.log(str.replace(/Man/, 'Ceo'))
+// o/p:  The Ceo is not well. But the man is working
+
+// console.log(str.replace(/man/i, 'Ceo'))
+// o/p:  The Ceo is not well. But the man is working
+
+// console.log(str.replace(/man/ig, 'Ceo'))
+// o/p:  The Ceo is not well. But the Ceo is working
