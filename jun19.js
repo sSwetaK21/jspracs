@@ -72,7 +72,7 @@
 // console.log(str.replace('hi', 'hello'))
 // o/p: hello this is shweta
 
-let str = 'The Man is not well. But the man is working'
+// let str = 'The Man is not well. But the man is working'
 // console.log(str.replace(/Man/, 'Ceo'))
 // o/p:  The Ceo is not well. But the man is working
 
@@ -81,3 +81,12 @@ let str = 'The Man is not well. But the man is working'
 
 // console.log(str.replace(/man/ig, 'Ceo'))
 // o/p:  The Ceo is not well. But the Ceo is working
+
+
+//====split()===========
+// divides a string
+
+let str = 'he is a man'
+// console.log(str.split())
+//o/p:  [ 'he is a man' ]
+console.log(str.split(' ', 2))
