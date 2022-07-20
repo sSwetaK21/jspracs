@@ -15,9 +15,14 @@
 
 // const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 
-// const result = words.filter(word => word.length > 6);
+// const result = words.find(word => word.length > 6);
 
 // console.log(result);
+// let arr=[1,2,3];
+// let arr2 = [4,5,6,7]
+// let arr3= 
+// console.log(arr.concat(arr2))
+// console.log([...arr,'shweta',...arr2])
 // // expected output: Array ["exuberant", "destruction", "present"]
 
 
@@ -86,7 +91,20 @@
 //====split()===========
 // divides a string
 
-let str = 'he is a man'
+// let str = 'he is a man'
 // console.log(str.split())
 //o/p:  [ 'he is a man' ]
-console.log(str.split(' ', 2))
+// console.log(str.split(' ', 2))
+
+
+function add(arr){
+    //let arr=[1,2,3]
+    arr.push(10)
+    return arr 
+
+}
+let obj={
+    0:1,
+    1:2,
+    2:3
+}
