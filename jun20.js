@@ -107,3 +107,27 @@
 // console.log(fillMethod([1,2,4,5,6],3,2))
 
 // o/p:  [ 1, 2, 3, 5, 6 ]
+
+
+//=======slice()=======
+
+// function sliceMethod(arr,start,end){
+//     let arr1=[]
+//     for(let i=start;i<end;i++){
+//        arr1[i] = arr[i]
+//     }
+//     return [...arr1]
+// }
+// console.log(sliceMethod([1,2,3,4,5],2,4))
+
+///=====splice()========
+
+// function spliceMethod(arr,start, value){
+//     for(let i=start; i<arr.length;i++){
+//         arr[i]=value
+//     }
+//     return arr
+// }
+// console.log(spliceMethod([1,2,3,4],1,7))
+
+// o/p:  [ 1, 7, 7, 7 ]
