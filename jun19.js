@@ -20,7 +20,7 @@
 // console.log(result);
 // let arr=[1,2,3];
 // let arr2 = [4,5,6,7]
-// let arr3= 
+ 
 // console.log(arr.concat(arr2))
 // console.log([...arr,'shweta',...arr2])
 // // expected output: Array ["exuberant", "destruction", "present"]
