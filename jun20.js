@@ -17,10 +17,11 @@
 
 // function reverseOfArr(arr){
 //     for(let i=arr.length; i>=0;i--){
-//         console.log(arr[i]) ;
+//         // console.log(arr[i]) ;
+//         // return arr[i]
 //     }
 // }
-// reverseOfArr([1,2,3,4])
+// console.log(reverseOfArr([1,2,3,4]))
 
 //=======max()=========
 
@@ -48,7 +49,7 @@
 //     }
 //     return min
 // }
-// console.log(minMethod([6,9,3,5]))
+// console.log(minMethod([6,9,3,3,5]))
 
 
 //=======sort()======
@@ -65,7 +66,6 @@
 //     }
 //     return arr
 // }
-
 // console.log(sortedArray([4,33,78,999,22]))
 
 //==find()============

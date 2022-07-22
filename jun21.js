@@ -14,3 +14,10 @@
 //   }
 // console.log(substring('aircampus', 3,9))
 
+// let names='shweta';
+// console.log(names.indexOf('s'))   //0
+
+let str = 'JavaScript Substring';
+let substring = str.substring(11);
+
+console.log(substring);
