@@ -9,7 +9,8 @@
 // }
 // console.log(count_all_divisions([1, 5, 7, 8], 1))
 
-function substring(str, a, b){
-   return str.slice(a,b)
-  }
-console.log(substring('aircampus', 3,9))
+// function substring(str, a, b){
+//    return str.slice(a,b)
+//   }
+// console.log(substring('aircampus', 3,9))
+
