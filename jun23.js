@@ -68,13 +68,20 @@
 // var a=0;   //undefined
 // let b=1
 
-let person = {
-    firstName: 'Jane',
-    lastName  : 'Doe',
-    greet: function(){
-        return this.firstName + ' '+ this.lastName;
-    }
-}
+// let person = {
+//     firstName: 'Jane',
+//     lastName  : 'Doe',
+//     greet: function(){
+//         return this.firstName + ' '+ this.lastName;
+//     }
+// }
+
+// console.log(Object.values(person))
+
+// for(var prop in person) {
+//     console.log(prop + ':' + person[prop]);
+// }
+
 // console.log(person.firstName)
 
 // console.log(person['firstName'])
@@ -87,3 +94,31 @@ let person = {
 // person.greet()    //hi
 
 // console.log(person.greet())   //jane doe
+
+// let arr=[1,2,3,4,5]
+// let [num1, num2,...rest] = arr
+// console.log(num1,num2, ...rest)  // 1 2 3 4 5 
+
+
+// function Person(firstName, lastName) {
+//     // this = {};
+
+//     // add properties to this
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+
+//     // return this;
+// }
+
+// let person1 = new Person('Jane','Doe')
+// let person2 = new Person('James','Smith')
+
+// console.log(person1)   //Person { firstName: 'Jane', lastName: 'Doe' }
+
+const items = [10 , 20, 30];
+let total = 0;
+
+for(const item in items) {
+    total += items[item];
+}
+console.log(total); 
