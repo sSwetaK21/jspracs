@@ -83,7 +83,7 @@
 // Take a number and print out the last digit of the number.
 
 // let number = parseInt(process.argv[2]);
-// number = number%10;
+// number = number % 10;
 // console.log(number);
 
                         // -----qst 8 ----- 
@@ -100,17 +100,17 @@
                         // -----qst 9 ----- 
 // Take a number and print out the reverse digit of the number.
 
-let number = parseInt(process.argv[2]);
-let reverse = 0;
-let count =0;
-let temp = number;
-while(temp > 0){
-    let digit = Math.floor(temp % 10);
-    reverse = reverse*10 + digit;
-    temp = Math.floor(temp / 10);
-    count++
-}
-console.log(reverse);
+// let number = parseInt(process.argv[2]);
+// let reverse = 0;
+// let count =0;
+// let temp = number;
+// while(temp > 0){
+//     let digit = Math.floor(temp % 10);
+//     reverse = reverse*10 + digit;
+//     temp = Math.floor(temp / 10);
+//     count++
+// }
+// console.log(reverse);
 
 
 
@@ -194,18 +194,18 @@ console.log(reverse);
                         // -----qst 17 -----    
 // Take an integer and print "YES" if the integer is prime and "NO" if it is not.
 
-// let number = parseInt(process.argv[2]);
-// let flag = 0;
-// for(let i=2;i<number;i++){
-//     if(number%i==0){
-//         flag = 1;
-//     }
-// }
-// if(flag==0){
-//     console.log("YES");
-// } else{
-//     console.log("NO");
-// }
+let number = parseInt(process.argv[2]);
+let flag = 0;
+for(let i=2;i<number;i++){
+    if(number%i==0){
+        flag = 1;
+    }
+}
+if(flag==0){
+    console.log("YES");
+} else{
+    console.log("NO");
+}
 
                         // -----qst 18 -----    
 // take a number and print perfect square of the number.

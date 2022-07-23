@@ -29,7 +29,7 @@
 //======
 
 // const months = ['Jan', 'March', 'April', 'June'];
-// months.splice(1,0)
+// months.splice(1,1)
 // console.log(months)
 
 

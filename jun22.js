@@ -33,4 +33,16 @@
 // let b=-10;
 // console.log(a==b)  //false
 
-console.log(null == undefined); // true
+// console.log(null == undefined); // true
+
+// let str='hi There!';
+// console.log(str.search(/[A-Z]/, 2)) // 3
+// console.log(str.startsWith('h'))  //true
+// console.log(str.indexOf('i'))  // 1
+
+let str='hi There!';
+// console.log(str.trim())
+
+// console.log(str.substring(9,3)) // There!
+ //=> interchanges the positions start=3, end=9
+// console.log(str.slice(9,3))  // no result
