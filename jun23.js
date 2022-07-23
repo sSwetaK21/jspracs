@@ -1,7 +1,7 @@
 // let arr= 'aircampus'
 // console.log(arr.split('').join(','))
 
-let arr=[1,2,3,4,5,66]
+// let arr=[1,2,3,4,5,66]
 // console.log(arr.lastIndexOf(2,3))
 // arr.push(5)
 // console.log(arr)
@@ -33,3 +33,57 @@ let arr=[1,2,3,4,5,66]
 // console.log(sum(...[1,2,3]))
 
 
+// let str='hi Ram is working. Ram is good boy';
+// let res= str.replaceAll('Ram', 'Shyam')
+// console.log(res)
+
+
+// let str= 'hi hey hello';
+// let res = str.charAt(3)
+// console.log(res)
+
+// getName()
+
+// let x =3;
+// console.log(x)
+
+// function getName(){
+//     let a =1;
+//     if(a==1){
+//         let b = a
+//         console.log(b)
+//     }
+//     // console.log(b)   throws error
+//     console.log("inside a function")
+// }
+
+// function greet(){
+//     counter =0;
+//     return counter;
+// }
+
+// console.log(greet())
+
+// console.log(a)
+// var a=0;   //undefined
+// let b=1
+
+let person = {
+    firstName: 'Jane',
+    lastName  : 'Doe',
+    greet: function(){
+        return this.firstName + ' '+ this.lastName;
+    }
+}
+// console.log(person.firstName)
+
+// console.log(person['firstName'])
+
+// person.age = 22
+
+// delete person.age
+// console.log('age' in person)
+
+// person.greet()    //hi
+
+// console.log(person.greet())   //jane doe
