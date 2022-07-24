@@ -109,9 +109,121 @@
 
 // var a=0;
 
+//array notation accesing objects
 
 // let person = {
 //     fname:'Jamee',
-//     'building no' : 123
+//     'building no' : 123,
+//     greet : function(){
+//         console.log('insdie objj')
+//     }
 // }
 // console.log(person['building no'])
+
+//modifying
+
+// person.fname = 'Joe'
+// console.log(person)
+
+//adding new property
+
+// person.age =  22
+// console.log(person)
+
+//deleting property
+
+// delete person.age
+// console.log(person)
+
+//checking if property exists
+
+// console.log('age' in person)  //true
+
+//obj methods
+
+// person.greet()
+
+//getter and settersss
+
+// let person={
+//     fname:'Joe',
+//     lname: 'Kodam',
+//     get fullName(){
+//         return `${person.fname}  ${person.lname}`
+//     },
+//     set fullName(newname){
+//         let parts = newname.split(' ');
+//         this.fname = parts[0]
+//         this.lname = parts[1]
+//     }
+// }
+// person.fullName = 'Sachin Tendulkar'
+// console.log(person.fullName)
+
+
+//Destructuring obj
+
+// const myVehicle = {
+//     brand: 'Ford',
+//     model: 'Mustang',
+//     color: 'red'
+//   }
+  
+//   const updateMyVehicle = {
+//     type: 'car',
+//     year: 2021, 
+//     color: 'yellow'
+//   }
+  
+//   const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle}
+  
+//   //Check the result object in the console:
+//   console.log(myUpdatedVehicle);
+
+
+//destructuring array
+
+// let arr=[1,2,34,5,6]
+// let [num1,num2,...rest] = arr
+// console.log(num1,num2,...rest)
+
+
+//copying array
+
+// const numbersOne = [1, 2, 3];
+// const numbersTwo = [4, 5, 6];
+// const numbersCombined = [...numbersOne, ...numbersTwo];
+// console.log(numbersCombined)
+
+//constructor object
+
+// function Person(fname,lname,age){
+//    this.fname = fname,
+//    this.lname = lname,
+//    this.age = age
+
+// }
+// let father = new Person('Ganga', 'Kodam', 48);
+// let mother = new Person('lavanya','Kodam', 44)
+// console.log(mother)
+
+
+//for...in loop
+
+// let total =0;
+// for(let i in person){
+//     total += person[i]
+// }
+// console.log(total)
+
+// /factory function obj
+
+// function person(fname,lname){
+//     return {
+//         fname: fname,
+//         lname: lname
+//     }
+// }
+// let person1=person('joe','doe')
+// console.log(person1)
+
