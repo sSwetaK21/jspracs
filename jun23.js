@@ -115,10 +115,46 @@
 
 // console.log(person1)   //Person { firstName: 'Jane', lastName: 'Doe' }
 
-const items = [10 , 20, 30];
-let total = 0;
+// const items = [10 , 20, 30];
+// let total = 0;
 
-for(const item in items) {
-    total += items[item];
-}
-console.log(total); 
+// for(const item in items) {
+//     total += items[item];
+// }
+// console.log(total); 
+
+
+// function createPerson(firstName, lastName) {
+//     return {
+//       firstName: firstName,
+//       lastName: lastName,
+//       getFullName() {
+//         return firstName + ' ' + lastName;
+//       },
+//     };
+//   }
+  
+//   let person1 = createPerson('John', 'Doe');
+//   let person2 = createPerson('Jane', 'Doe');
+  
+//   console.log(person1.getFullName());
+//   console.log(person2.getFullName());
+
+//   let athletes = new Array(3); // creates an array with initial size 3
+// let scores = new Array(1, 2, 3); // create an array with three numbers 1,2 3
+// let signs = new Array('Red'); // creates an array with one element 'Red'
+
+// console.log(scores)
+
+// let a=10;
+// let b=-10;
+// console.log(a==b)  //false
+
+// let a = [10,2,3,4];
+// let b= [10,2,3,4]
+// console.log(a==b)  //false
+
+
+// let a = [10,2,3,4];
+// let b= a
+// console.log(a==b)  //true
