@@ -3,7 +3,6 @@
 //     return a-b
 // })
 // n.sort(  (a,b) => b-a
-
 // )
 // console.log(n)
 
@@ -121,7 +120,7 @@
 // console.log(person['building no'])
 
 //modifying
-
+   
 // person.fname = 'Joe'
 // console.log(person)
 
@@ -227,3 +226,63 @@
 // let person1=person('joe','doe')
 // console.log(person1)
 
+// let a=[1,15,2,3,4,1,3]
+// a.sort( (a,b)=> a -b )
+// console.log(a)
+
+// 'use strict'
+// function sum(n){
+//   a=1
+//   return a;
+// }
+// console.log(sum())
+
+// function create(fname){
+//     return {
+//         fname:fname,
+
+//     }
+// }
+// let p1= create('joe')
+// console.log(p1)
+
+// let arr = new Array(1,2,3)
+
+
+// let  matrix=[
+//     [1,2,3],
+//     [4,5,6],
+//     [1,2,3]
+// ]
+
+// let rows=matrix.length;
+// let col = matrix[0].length;
+// let sum=0;
+// for(let i =0;i<rows;i++){
+//     for(let j=0; j<col;j++){
+//         if(i == j){
+//             sum += matrix[i][j]
+//         }
+//     }
+//     // sum+= matrix[i][i]
+// }
+// console.log(sum)
+
+
+// let rows=matrix.length;
+// let col = matrix[0].length;
+// let sum=0;
+// let start =0;
+// for(let i =0;i<rows;i++){
+//     sum+= matrix[i][start]
+//     start += 1
+// }
+// console.log(sum)
+
+// let person={
+//     fname: 'joi',
+//     greet: {
+//         fnames:'doe'
+//     }
+// }
+// console.log(person.greet.fnames)

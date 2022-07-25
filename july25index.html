@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p class = "myclass"> This is paragraph</p> -->
+    <button class = "btn"> text</button>
+    <button class = "btn2"> list</button>
+    <button class = "btn3"> remove</button>
+
+
+    <div style="display: none; background-color: brown;">
+    <ul>
+        <li> one</li>
+        <li> one</li>
+        <li> one</li>
+
+    </ul>
+</div>
+
+    <h1></h1>
+</body>
+<script>
+    let button = document.querySelector('.btn');
+    let button2 = document.querySelector('.btn2');
+    let button3 = document.querySelector('.btn3');
+
+    let div = document.querySelector('div')
+
+    let heading = document.querySelector('h1');
+    // // para.style.color = 'Red'
+    button.addEventListener('click', functionclick);
+    button2.addEventListener('click', displayfn);
+    button3.addEventListener('click', removefn);
+
+
+    function functionclick(){
+        heading.style.color = 'Red' ;
+        heading.innerHTML = "this is a button";
+    }
+    
+    function displayfn(){
+        if(div.style.display = "none"){
+            div.style.display ="Block"
+        } else{
+            div.style.display = "none"
+        }
+    }
+
+    function removefn(){
+        div.style.display = "none"
+    }
+
+</script>
+
+</html>
