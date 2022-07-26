@@ -68,10 +68,12 @@
     // ]
 
     // let col= arr[0].length
-let arr=[1,2,3]
-// let arr1 = arr.splice(0,3)
-arr.map(value  => value*2)
-console.log(arr)
+// let arr=[1,2,3]
+// // let arr1 = arr.splice(0,3)
+// arr.map(value  => value*2)
+// console.log(arr)
 
+
+// console.log(typeof(null))
 
 
