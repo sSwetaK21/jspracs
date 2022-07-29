@@ -137,8 +137,11 @@
 //     console.log('interval')
 // },1000)
 
-// clearInterval(intervalFn)
+// function stopfn(){
 
+//     clearInterval(intervalFn)
+// }
+// stopfn()
 
 // function compareBy(propertyName) {
 //     return function (a, b) {
