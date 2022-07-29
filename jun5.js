@@ -69,11 +69,106 @@
 
 // let n =  '123' > 66   //true
 //  let n ='123' < 55    //false
+// let n ='a' < 22       //false
+
+// let n = '10 ' * 3   //30
+// let n = '10' /3      //3.3333333333335
+// let n ='10' % 3     //1
 
 
-
-console.log(n)
-
-
+// let  n = 'a' * 3  //NaN
+// let n = 'a' / 3      //NaN
 
 
+// let n = 1/0  
+
+// console.log(n)
+// console.log(!undefined)
+
+// console.log(true || false)
+// console.log(undefined || null)
+
+// console.log(!undefined); // true
+// console.log(!null); // true
+// console.log(!20); //false
+// console.log(!0); //true
+// console.log(!NaN); //true
+// console.log(!{}); // false
+// console.log(!''); //true
+// console.log(!'OK'); //false
+// console.log(!false); //true
+// console.log(!true); //false
+
+
+// console.log(3 === '3')
+
+
+// console.log(NaN/2); // NaN
+// console.log(NaN == NaN); // false
+
+
+// let person = {
+//     firstName : 'Shwey',
+//     lastName : 'Kodam',
+//     greet : function(){
+//         return `My name is ${this.firstName} ${this.lastName}`
+//     }
+// }
+
+// console.log(person.greet())
+
+// for (let i = 0; i < 10; i++) {
+//     if (i % 2 === 0) {
+//       continue;
+//     }
+//     console.log(i);
+//   }
+
+// let myTime = setTimeout(function(){
+//     console.log('inside timer')
+// }, 1000)
+
+
+// clearTimeout(myTime)
+
+//seInterval
+
+// let intervalFn = setInterval(function(){
+//     console.log('interval')
+// },1000)
+
+// clearInterval(intervalFn)
+
+
+// function compareBy(propertyName) {
+//     return function (a, b) {
+//       let x = a[propertyName],
+//         y = b[propertyName];
+  
+//       if (x > y) {
+//         return 1;
+//       } else if (x < y) {
+//         return -1;
+//       } else {
+//         return 0;
+//       }
+//     };
+//   }
+
+//   let products = [
+//     { name: 'iPhone', price: 900 },
+//     { name: 'Samsung Galaxy', price: 850 },
+//     { name: 'Sony Xperia', price: 700 },
+//   ];
+  
+//   // sort products by name
+//   console.log('Products sorted by name:');
+//   products.sort(compareBy('name'));
+  
+//   console.table(products);
+  
+//   // sort products by price
+//   console.log('Products sorted by price:');
+//   products.sort(compareBy('price'));
+//   console.table(products);
+  

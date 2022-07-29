@@ -1,10 +1,9 @@
 // console.log(typeof(NaN))
 // console.log(typeof(null))
 // let n=3
-// let i=1
-// while(n!==1){
+// while(n<10){
 //     console.log(n);
-//     i--
+//     n++
 // }
 
 // for(let i=0; i<n;i++){
