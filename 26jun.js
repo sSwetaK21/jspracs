@@ -4,16 +4,16 @@
 //     a++;
 // }
 
-
+// console.log(10 % 3)
 
 // function pallindrome(str){
 //     let reverse = 0;
 //     let count =0;
 //     let temp = str;
-//     if(temp > 0){
-//         let digit = Math.floor(temp % 10);
+//     while(temp > 0){
+//         let digit = Math.floor(temp % 10);    //last
 //         reverse = reverse*10 + digit;
-//         temp = Math.floor(temp / 10);
+//         temp = Math.floor(temp / 10);    //first
 //         count++;
 //     }
 //      console.log(count);

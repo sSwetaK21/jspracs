@@ -26,7 +26,7 @@
 // console.log(number, typeof number);
 
 // let number1 = parseFloat(34.87);
-// console.log(number1, typeof number1);
+// // console.log(number1, typeof number1);
 
 // console.log(number1.toFixed(5));
 
@@ -104,4 +104,9 @@
 
 
 
- 
+// let obj = {}
+// let arr =[]
+// function add(){
+
+// }
+// console.log(typeof(add))

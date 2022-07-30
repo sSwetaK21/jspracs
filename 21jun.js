@@ -6,16 +6,18 @@
 //   console.log(this);
 //     return a+b;
 // }
+// // add(5,6)
 
 // console.log(add(5,6));
 
 
-function add(a,b){
-  console.log(this);
-      return a+b;
-}
+// function add(a,b){
+//   console.log(this);
+//       return a+b;
+// }
 
-console.log((10).toString(16));
+// console.log((10).toString(8));
+// console.log(add(1,2))
 
 
 

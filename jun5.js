@@ -143,7 +143,7 @@
 // }
 // stopfn()
 
-// function compareBy(propertyName) {
+// function compareBy(propertyName) {       
 //     return function (a, b) {
 //       let x = a[propertyName],
 //         y = b[propertyName];

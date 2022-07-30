@@ -17,7 +17,8 @@
 // console.log(b);
 
 
-//while loop
+// while loop
+
 //  let i=1;
 //     while(i<=10){
 //         console.log(i);
@@ -27,7 +28,6 @@
 
 
 //do while loop
-
 
 // let i=1;
 //     do{
@@ -59,6 +59,7 @@
 //switch case
 
 //  let number= parseInt(process.argv[2]);
+// let number = 4
 //     switch(number){
 //         case 1:
 //             console.log("one");

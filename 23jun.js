@@ -118,13 +118,13 @@
 
 
 
-function odd(num, num2){
-    if(num<=num2){
-        if(num%2== 0){
-            console.log(num);
-            return odd(num+1, num2);
-        }
-    }
-}
+// function odd(num, num2){
+//     if(num<=num2){
+//         if(num%2== 0){
+//             console.log(num);
+//             return odd(num+1, num2);
+//         }
+//     }
+// }
 
-console.log(odd(1,6));
+// console.log(odd(1,6));
