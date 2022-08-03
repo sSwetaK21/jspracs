@@ -38,21 +38,21 @@
 // Take a number and find the sum all the even digits of the number. if there are no even digit in number return -1.
 
 
-function even(num){
-    let sum = 0;
-    let temp =num;
-    if(num > 0){
-     temp = Math.floor(num/10);
-     if(temp % 2 == 0){
-        sum += temp;
-        return even(num, sum);
-     } else {
-        return -1;
-      }
-    }
-}
+// function even(num){
+//     let sum = 0;
+//     let temp =num;
+//     if(num > 0){
+//      temp = Math.floor(num/10);
+//      if(temp % 2 == 0){
+//         sum += temp;
+//         return even(num, sum);
+//      } else {
+//         return -1;
+//       }
+//     }
+// }
 
-console.log(even(1234));
+// console.log(even(1234));
 
 
 // let count = 0;

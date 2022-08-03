@@ -1,7 +1,7 @@
 // console.log(typeof(NaN))
 // console.log(typeof(null))
 // let n=3
-// while(n<10){
+// while(n >10){
 //     console.log(n);
 //     n++
 // }
