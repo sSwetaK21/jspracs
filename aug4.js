@@ -23,3 +23,5 @@ let p1El = document.querySelector("#p1")
 let spanEl = document.querySelector(".span1")
 
 spanEl.remove()
+
+console.log(document.getElementsByClassName("span1"))
