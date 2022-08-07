@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .list{
+        display: none;
+        background-color: olive;
+       }
+       .ulList{
+        list-style: none
+       }
+    </style>
+</head>
+
+<body>
+
+    <button class="Btn">Task</button>
+    <div class="list">
+      <ul class="ulList">
+        <li>List1</li>
+        <li>List2</li>
+        <li>List3</li>
+        <li>List4</li>
+      </ul>
+    </div>
+
+
+<!-- js here -->
+    <script>
+        let button = document.querySelector(".Btn");
+        let div = document.querySelector(".list");
+        button.addEventListener("click", MyFunction);
+        function MyFunction() {
+            if (div.style.display == "none") {
+                document.querySelector(".Btn").innerHTML = "My Sayings";
+                div.style.display = "block";
+            } else {
+                document.querySelector(".Btn").innerHTML = "you clicked";
+                div.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+
+
+
+</html>
